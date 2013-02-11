@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	
+  	<LinearLayout
+		 xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:gravity="center"
+		 android:background="@drawable/ic_map_select" 
+		 android:layout_gravity="top">
+	</LinearLayout>
+	<ScrollView 
+		android:id="@+id/Scroll" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+			
+		<LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		  <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:text="Cyride Social Networking"
+				android:lineSpacingExtra="20px"
+				android:textSize="20px">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:text="Visit Cyride on Twitter at:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:lineSpacingExtra="20px"
+				android:autoLink="all"
+				android:text="http://twitter.com/cyride">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:text="Visit Cyride on Facebook at:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:lineSpacingExtra="20px"
+				android:autoLink="all"
+				android:text="http://www.facebook.com/cyride">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:text="Or Visit Cyride's Website for Updates:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:lineSpacingExtra="20px"
+				android:autoLink="all"
+				android:text="http://cyride.com/">
+			</TextView>
+		  <TextView 
+				android:text="Cyroid Application" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textStyle="bold"
+				android:textSize="25px"
+				android:textColor="#CC2233"
+				android:lineSpacingExtra="20px">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:text="Find a Bus and Browse Routes"
+				android:textSize="20px">
+			</TextView>
+		  <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:text="The 'Find a Bus' button is useful for users who want to utilize GPS to know which Bus Stops are closest to their location. The radius in which the application searches for stops can be changed in the Settings menu. Unlike 'Find a Bus,' 'Browse Rotues' does not use GPS, and can be utilized by users who already know which stop they want to go to, or would like to view a complete listing of all bus stops for a certain route. Stops can be viewed by a list or a map. Try it out!">
+			</TextView>
+		  <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:text="Understanding Time Stops"
+				android:textSize="20px">
+			</TextView>
+		  <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:text="Time Stops are stops that have well defined times which the bus company expects to match. Minor Stops are between Time Stops and do not have an exact time defined for the stop. This application provides times for Minor Stops by showing the time for the nearest Time Stop before the Minor Stop. This means times for a Minor Stop could be a few minutes to 5+ minutes early, depending on the route. To see only Time Stops on routes, please change the setting in the Settings Menu">
+			</TextView>
+		  <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:text="Cyroid's Disclaimer"
+				android:textSize="20px">
+			</TextView>
+			 <TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:text="Cyroid's programmers have worked diligently to make sure all stops and times correctly correspond with the route. Occasionally there may be errors in presenting stops and times or in the GTFS data source where the information is coming from (provided by the bus company). Please call the bus company if you have any questions about times and routes. Feel free to email us at cyroidtransit@googlegroups.com">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textColor="#FCD116" 
+				android:text="General Transit Feed Specification (GTFS)"
+				android:textSize="20px">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:text="GTFS is a new data standard for transportation systems to integrate their system with Google Maps/Google Transit and also provide transit data to other developers.">
+			</TextView>
+			
+			
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

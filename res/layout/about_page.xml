@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+	
+  	<LinearLayout
+		 xmlns:android="http://schemas.android.com/apk/res/android"
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:gravity="center"
+		 android:background="@drawable/ic_map_select" 
+		 android:layout_gravity="top">
+	</LinearLayout>
+	<ScrollView 
+		android:id="@+id/Scroll" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		
+		<LinearLayout
+		  xmlns:android="http://schemas.android.com/apk/res/android"
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+			<TextView 
+				android:text="Cyroid Application Version 2" 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal"
+				android:textStyle="bold"
+				android:textSize="25px"
+				android:textColor="#CC2233">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:text="Project Creation made possible by Com Sci 309 by Professor Weiss at Iowa State University">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:text="www.iastate.edu"
+				android:lineSpacingExtra="20px">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textSize="18px"
+				android:text="Contact us at:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:autoLink="all"
+				android:lineSpacingExtra="20px"
+				android:textSize="18px"
+				android:text="cyroidtransit@googlegroups.com">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:text="~~~Project Team~~~"
+				android:textSize="20px">
+			</TextView>
+		
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="Project Manager:">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="John Sedig">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="Architect:">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="Matt Graves And (Version 2) by William Tran">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="System Engineer:">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="Alex Wesenberg And (Version 2) William Tran"
+				android:lineSpacingExtra="15px">
+			</TextView>
+		
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#FCD116"
+				android:textSize="20px"
+				android:text="--Development Team">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text=" Version 2 Back End Developer/Front End Developer">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="William Tran">
+			</TextView>
+			
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="Version 1 Route Format Team: Deprecated">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="John Sedig, Matt Graves, Joe Evans, Ben Alibasic">
+			</TextView>
+			
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#EE2C2C"
+				android:textSize="15px"
+				android:text="Gui Team:">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="Alex Wesenberg, William Tran, Kevin Nennig">
+			</TextView>
+			
+			
+		
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="Project Engineering Environment:">
+			</TextView>
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="Matt Graves">
+			</TextView>
+		
+			<TextView 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="GUI Testers:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="--Maps--">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent"  
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="William Tran">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="--Routes--">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="Alex Wesenberg">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="--Design Organization--">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:gravity="center_horizontal" 
+				android:text="Kevin Nennig">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textColor="#CC2233"
+				android:textSize="15px"
+				android:text="Field Testing:">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:textSize="15px"
+				android:text="Kevin Nennig, John Sedig"
+				android:lineSpacingExtra="15px">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:autoLink="all"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:textSize="20px"
+				android:text="A special thanks to CyRide for working with us to complete this project. Visit Cyride at ">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:autoLink="all"
+				android:gravity="center_horizontal" 
+				android:textColor="#FCD116"
+				android:textSize="20px"
+				android:lineSpacingExtra="15px"
+				android:text="www.cyride.com">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:autoLink="all"
+				android:gravity="center_horizontal" 
+				android:textColor="#A4C639"
+				android:textSize="18px"
+				android:text="Feel Free to email us with any comments">
+			</TextView>
+			<TextView 
+				android:layout_width="fill_parent" 
+				android:layout_height="wrap_content"
+				android:autoLink="all"
+				android:textColor="#A4C639"
+				android:textSize="18px"
+				android:gravity="center_horizontal" 
+				android:text="cyroidtransit@googlegroups.com">
+			</TextView>
+		</LinearLayout>
+	</ScrollView>
+</LinearLayout>

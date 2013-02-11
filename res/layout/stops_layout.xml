@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:weightSum="1.0">
+	
+		<TextView 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0.10"
+		android:text="Select A Stop"
+		android:textSize="30sp"
+		>
+		
+		
+		
+		</TextView>
+		
+		<ListView
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/StopList" 
+		android:layout_weight="0.80"
+		>
+	
+	
+	</ListView>
+	
+		<TextView 
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/stopSelectedRoute"
+		android:layout_weight="0.10"
+		android:text=""
+		android:textSize="30sp"
+		android:gravity="center_horizontal"
+		/>
+
+
+</LinearLayout>
+

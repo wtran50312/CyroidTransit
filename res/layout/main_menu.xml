@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/ic_main_page_city_name"
+	android:weightSum="3.0">
+	
+	<LinearLayout android:id="@+id/LinearLayout01" 
+		android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" 
+		android:layout_weight="3.0">
+	</LinearLayout>
+	
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+		android:layout_width="fill_parent" 
+		android:weightSum="2.0" 
+		android:gravity="bottom" 
+		android:layout_height="wrap_content" 
+		android:orientation="vertical">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:orientation="horizontal" 
+			android:layout_height="wrap_content" 
+			android:gravity="center_horizontal" 
+			android:weightSum="1.0" 
+			android:layout_width="fill_parent">
+			<Button android:text="Find a Bus" 
+				android:id="@+id/FindABus" 
+				android:layout_height="fill_parent" 
+				android:layout_width="wrap_content" 
+				android:layout_weight="0.5"/>
+			<Button android:text="Browse Routes" 
+				android:id="@+id/BrowseRoutes" 
+				android:layout_height="fill_parent" 
+				android:layout_weight="0.5" 
+				android:layout_width="wrap_content"/>
+		</LinearLayout>
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_height="fill_parent" 
+			android:gravity="center_horizontal" 
+			android:orientation="horizontal" 
+			android:layout_width="fill_parent" 
+			android:weightSum="1.0">
+			<Button android:text="  Bus Map  "
+				android:id="@+id/BusMap" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="0.5"/>
+			<Button android:text="Call Bus Service" 
+				android:id="@+id/CallInformation" 
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" 
+				android:layout_weight="0.5"/>
+				
+		</LinearLayout>
+	</LinearLayout>		
+</LinearLayout>

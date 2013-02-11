@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/mainMenu"
+		android:title="Return to Main Menu" 
+		android:icon="@android:drawable/ic_menu_mylocation"/>	
+	<item android:id="@+id/maps" 
+		android:title="Bus Map" 
+		android:icon="@android:drawable/ic_menu_mapmode"/>
+	<item android:id="@+id/info" 
+		android:title="Info" 
+		android:icon="@android:drawable/ic_menu_info_details">
+	</item>
+	<item android:id="@+id/contactUs" 
+		android:title="Contact Us" android:icon="@android:drawable/ic_menu_send"></item>
+</menu>

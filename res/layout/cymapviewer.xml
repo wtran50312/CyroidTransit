@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical">
+
+
+	
+	<TextView android:layout_width="fill_parent"
+
+		android:layout_height="wrap_content" 
+		android:gravity="center"
+		android:id="@+id/mapViewerRouteName" 
+		android:text="" 
+		android:textSize="33sp">
+	</TextView>
+	
+	
+
+	
+	<com.google.android.maps.MapView
+		android:id="@+id/mapview" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:enabled="true"
+		android:clickable="true" android:apiKey="0EWKOJFdafqQkS1wQDScDtXlI7gQ1ZFc_wTIe6A" />
+		<!--  0EWKOJFdafqQIhAAJtig9VtlpK0KFpaTy1K5QOg LAPTOP REAL KEY -->
+		<!-- 0EWKOJFdafqQkS1wQDScDtXlI7gQ1ZFc_wTIe6A  DESKTOP REAL KEY real map -->
+	<!-- laptop 0EWKOJFdafqTWrnpFlpWXgDxYJBE3GJ4iKhD1TA -->
+	<!-- android:apiKey="0EWKOJFdafqS4WQf7EULtH2XeV-MiQA9WgZIePQ" -->
+	<!-- android:apiKey="0EWKOJFdafqTH2MjjJtBAayyrt8G_UFxWAtZZHg" desktop/> -->
+
+	
+	
+		<LinearLayout android:id="@+id/zoom"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true"/>
+			
+			
+	
+
+
+</LinearLayout>

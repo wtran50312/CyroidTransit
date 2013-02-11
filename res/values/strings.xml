@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, home!</string>
+    <string name="app_name">Cyroid TransitV2</string>
+    
+   
+      
+<string name="feedback_email">cyroidtransit@googlegroups.com</string>
+<string name="fb_sbjct_mainmenu">CyroidFB - Feedback</string>
+<string name="fb_sbjct_about">CyroidFB - About Page</string>
+<string name="fb_sbjct_info">CyroidFB - Info Page</string>
+<string name="fb_sbjct_general">CyroidFB - Feedback</string>
+<string name="fb_sbjct_settings">CyroidFB - Settings</string>
+<string name="fb_body_mainmenu">Help us improve our app! What would you like to see?</string>
+<string name="fb_body_about">What would you like to see on our about page?</string>
+<string name="fb_body_info">What information can we tell you to help you navigate Cyroid Transit?</string>
+<string name="fb_body_general">Please include as much detail as possible and we will try our best to fill your request.</string>
+<string name="fb_body_settings">What settings would you like to control in our application?</string>
+ 
+    <string-array name="spinner_array">
+        <item>3 Months</item>
+        <item>6 Months</item>
+    </string-array>
+
+    
+    
+</resources>

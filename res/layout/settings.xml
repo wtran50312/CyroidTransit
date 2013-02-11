@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout
+		 android:layout_width="fill_parent"
+		 android:layout_height="wrap_content"
+		 android:gravity="center"
+		 android:background="@drawable/ic_map_select" 
+		 android:layout_gravity="top">
+	</LinearLayout>
+	<ScrollView 
+		android:id="@+id/Scroll" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content">
+		<LinearLayout
+		  android:orientation="vertical"
+		  android:layout_width="fill_parent"
+		  android:layout_height="fill_parent">
+		    <LinearLayout android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1">
+		    	
+		    	<TextView android:text="Please enter a value in feet between 25 and 5000 for a Stop Search Radius:"
+		    			  android:layout_height="fill_parent"
+		    			  android:layout_width="wrap_content"
+		    			  android:textSize="22px"
+		    			  android:textColor="#CC2233"/>
+		    	
+		    	<EditText android:id="@+id/edittext"
+		        		  android:layout_width="fill_parent"
+		        		  android:layout_height="wrap_content"/>
+		   	</LinearLayout>
+		   	
+		   	 <LinearLayout android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1">	    			  
+		</LinearLayout>
+			
+		<LinearLayout
+						android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1" 
+		    			  android:paddingTop="60dp" 
+		    			  android:gravity="center_horizontal">
+		    			  
+		    			  
+		    	<TextView android:text="Select Update Interval For Automatic Updates Or Select Update Now (Note: you should not need to update very often!)"
+		    			  android:layout_height="fill_parent"
+		    			  android:layout_width="wrap_content"
+		    			  android:textSize="22px"
+		    			  android:textColor="#CC2233"/>
+		    			  
+		    			   
+    						 <Spinner 
+							        android:id="@+id/intervalSpinner"
+							        android:layout_width="fill_parent"
+							        android:layout_height="wrap_content"
+							    />
+		    			  
+		    			  <Button
+		    			  		android:id="@+id/updateButton"
+		    			  		android:layout_width="fill_parent"
+		    			  		android:layout_height="fill_parent"
+		    			  		android:text="Update Now"
+		    			  
+		    			  />
+		    			  
+		  </LinearLayout>
+		
+		   <!-- 
+		   	<LinearLayout
+		   				android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1" 
+		    			  android:paddingTop="60dp" 
+		    			  android:gravity="center_horizontal">
+		    	
+		      <TextView android:text="Select whether you would would like the application to display All Stops, or just Time Stops:"
+		    			  android:layout_height="fill_parent"
+		    			  android:layout_width="wrap_content"
+		    			  android:textSize="22px"
+		    			  android:textColor="#CC2233"/>
+		    	
+		    	<ToggleButton android:id="@+id/togglebutton"
+		        			  android:layout_width="fill_parent"
+		        			  android:layout_height="wrap_content"
+		        			  android:gravity="center_horizontal"
+		        			  android:textOn="All Stops"
+		        			  android:textOff="Only Time Stops"/>
+		        			  
+		   	</LinearLayout>
+		   	-->
+		  
+		   	
+		   	   	<LinearLayout android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1" 
+		    			  android:paddingTop="60dp" 
+		    			  android:gravity="center_horizontal">
+		    	
+		    	
+		    	
+		    	<Button android:id="@+id/applySettings"
+		        		android:layout_width="fill_parent"
+		        		android:layout_height="wrap_content"
+		        		android:gravity="center_horizontal"
+		        		android:text="Apply Settings"/>
+		   	</LinearLayout>	
+		   	
+		   	
+		   	
+		   	 	<LinearLayout android:orientation="vertical"
+		    			  android:layout_width="fill_parent"
+		    			  android:layout_height="wrap_content"
+		    			  android:weightSum="1" 
+		    			  android:paddingTop="60dp" 
+		    			  android:gravity="center_horizontal">
+		    	
+		    	
+		    	
+		    	<Button android:id="@+id/resetSettings"
+		        		android:layout_width="wrap_content"
+		        		android:layout_height="wrap_content"
+		        		android:gravity="center_horizontal"
+		        		android:text="Reset All Settings to Default Values"/>
+		   	</LinearLayout>		
+		   	
+		</LinearLayout>	   		
+   	</ScrollView>
+</LinearLayout>
